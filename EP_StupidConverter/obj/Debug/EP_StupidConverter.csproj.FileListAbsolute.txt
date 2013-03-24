@@ -1,0 +1,8 @@
+D:\Work\Programming\Visual Studio\In work\EP_StupidConverter\EP_StupidConverter\bin\Debug\EP_StupidConverter.exe
+D:\Work\Programming\Visual Studio\In work\EP_StupidConverter\EP_StupidConverter\bin\Debug\EP_StupidConverter.pdb
+D:\Work\Programming\Visual Studio\In work\EP_StupidConverter\EP_StupidConverter\obj\Debug\EP_StupidConverter.csprojResolveAssemblyReference.cache
+D:\Work\Programming\Visual Studio\In work\EP_StupidConverter\EP_StupidConverter\obj\Debug\EP_StupidConverter.Properties.Resources.resources
+D:\Work\Programming\Visual Studio\In work\EP_StupidConverter\EP_StupidConverter\obj\Debug\EP_StupidConverter.csproj.GenerateResource.Cache
+D:\Work\Programming\Visual Studio\In work\EP_StupidConverter\EP_StupidConverter\obj\Debug\EP_StupidConverter.exe
+D:\Work\Programming\Visual Studio\In work\EP_StupidConverter\EP_StupidConverter\obj\Debug\EP_StupidConverter.pdb
+D:\Work\Programming\Visual Studio\In work\EP_StupidConverter\EP_StupidConverter\obj\Debug\EP_StupidConverter.Form1.resources

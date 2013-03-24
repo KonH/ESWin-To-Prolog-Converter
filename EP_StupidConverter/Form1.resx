@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rtbESWin_Text.Text" xml:space="preserve">
+    <value>TITLE=Эксперт по закупкам вычислительной техники
+COMPANY=Хитрых К 9097
+
+Frame=Данные
+  Parent: 
+  Применение [Для какой цели Вы приобретаете рабочую станцию?]: (Разработка приложений; Мультимедийные приложения; Редактирование документов)
+  Информация [Какой объем информации Вам требуется?]: (Не более 500 Гб; От 500 до 1000 Гб)
+  Вес [Необходимо ли Вам переносить рабочую станцию?]: (Да; Нет)
+  Цена [Какой у Вас бюджет на это приобретение?]: (Менее 20.000 руб; От 20.000 до 40.000 руб; От 40.000 до 60.000 руб)
+EndF
+
+Frame=Цель
+  Parent: Parent
+  Выбор вычислительной техники: (Ноутбук Acer AOD270-268kk; Компьютер DNS Home Core i3-3225 2GB 500GB; Ноутбук Dell 15.6" N3520-5489; Компьютер DNS Office Sempron 145 1Gb 500GB; Компьютер DNS Office Core i3-3210 2GB 500GB; 10.1" Lenovo IdeaPad S110; HP CQ58-201SA 15.6"; Ноутбук ASUS X55Vd 15.6"; Ноутбук ASUS 1025C 10.1"; Компьютер DNS Office XL Core i3-3430 2GB 500GB; Ноутбук Acer Aspire One AOD270-268kk; Компьютер DNS Office Core i3-3140 2GB 500GB; Ноутбук Acer V3-551G-84506G50MAKK 15.6"; Acer V5-571G-52466G50Mabb; Acer V3-551G-10466G75MAKK 15.6"; 11.6" Apple MacBook Air; Ноутбук 14" Asus K45A; Компьютер DNS Office SSD Core i3-3220 2Gb SSD 120Gb; Ноутбук Dell 15.6" N5520-5579; Компьютер DNS Home A4-3300 4GB HD6410D 500GB; Ноутбук HP G7-2254SR 17.3"; Компьютер DNS Office XL Pentium G630 2GB 500GB; Компьютер DNS Prestige XL Core i7-3770 8GB GTX 660 Ti; 15.6" Ноутбук Samsung NP300E5C-U06RU; Компьютер DNS Prestige Core i7-3650 16GB HD7770; Компьютер DNS Office XL Pentium G690 4GB 500GB; Ноутбук 17.3" Samsung NP700G7A-S02RU; Компьютер DNS Home A5-3800 8GB HD6410D 750GB; Ноутбук 13.3" Sony VAIO SVS13A1V8RB; Компьютер DNS Extreme Core i5-3330 4GB 1TB; Ноутбук MSI 15.6" GX60 1AC-029RU; Ноутбук MSI GX60 15.6"; 13.3" Ultrabook Asus UX31A FHD i7 3517U; Ноутбук 13.3" Apple MacBook Pro; Компьютер DNS Prestige XL Core i7-3790 16GB GTX 680 Ti; Ноутбук ASUS 18.4" K95VJ;)
+EndF
+
+Rule 1
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да) 
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук Acer AOD270-268kk) 100
+EndR
+
+Rule 2
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук Samsung NP300E5C-U06RU) 100
+EndR
+
+Rule 3
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук ASUS 18.4" K95VJ) 100
+EndR
+
+Rule 4
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Home Core i3-3225 2GB 500GB) 100
+EndR
+
+Rule 5
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Prestige XL Core i7-3770 8GB GTX 660 Ti) 100
+EndR
+
+Rule 6
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Prestige XL Core i7-3790 16GB GTX 680 Ti) 100
+EndR
+
+Rule 7
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук Dell 15.6" N3520-5489) 100
+EndR
+
+Rule 8
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук HP G7-2254SR 17.3") 100
+EndR
+
+Rule 9
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук 13.3" Apple MacBook Pro) 100
+EndR
+
+Rule 10
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office Sempron 145 1Gb 500GB) 100
+EndR
+
+Rule 11
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Home A4-3300 4GB HD6410D 500GB) 100
+EndR
+
+Rule 12
+  EQ(Данные.Применение; Разработка приложений)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Home A5-3800 8GB HD6410D 750GB) 100
+EndR
+
+Rule 13
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук 10.1" Lenovo IdeaPad S110) 100
+EndR
+
+Rule 14
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук Dell 15.6" N5520-5579) 100
+EndR
+
+Rule 15
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук 13.3" Sony VAIO SVS13A1V8RB) 100
+EndR
+
+Rule 16
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office Core i3-3210 2GB 500GB) 100
+EndR
+
+Rule 17
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office SSD Core i3-3220 2Gb SSD 120Gb) 100
+EndR
+
+Rule 18
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Extreme Core i5-3330 4GB 1TB) 100
+EndR
+
+Rule 19
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук ASUS X55Vd 15.6") 100
+EndR
+
+Rule 20
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук 14" Asus K45A) 100
+EndR
+
+Rule 21
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук 17.3" Samsung NP700G7A-S02RU) 100
+EndR
+
+Rule 22
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office XL Core i3-3430 2GB 500GB) 100
+EndR
+
+Rule 23
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Home A4-3300 4GB HD6410D 500GB) 100
+EndR
+
+Rule 24
+  EQ(Данные.Применение; Мультимедийные приложения)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office Core i7-3180 8GB 1TB) 100
+EndR
+
+Rule 25
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук Acer Aspire One AOD270-268kk) 100
+EndR
+
+Rule 26
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук Dell 15.6" N5520-5579) 100
+EndR
+
+Rule 27
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук MSI 15.6" GX60 1AC-029RU) 100
+EndR
+
+Rule 28
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office Core i3-3140 2GB 500GB) 100
+EndR
+
+Rule 29
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office SSD Core i3-3220 2Gb SSD 120Gb) 100
+EndR
+
+Rule 30
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; Не более 500 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office XL Pentium G690 4GB 500GB) 100
+EndR
+
+Rule 31
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук ASUS 1025C 10.1") 100
+EndR
+
+Rule 32
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук Acer V3-551G-84506G50MAKK 15.6") 100
+EndR
+
+Rule 33
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Да)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Ноутбук MSI GX60 15.6") 100
+EndR
+
+Rule 34
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; Менее 20.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office Core i3-3210 2GB 500GB) 100
+EndR
+
+Rule 35
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 20.000 до 40.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Office XL Pentium G630 2GB 500GB) 100
+EndR
+
+Rule 36
+  EQ(Данные.Применение; Редактирование документов)
+  EQ(Данные.Информация; От 500 до 1000 Гб)
+  EQ(Данные.Вес; Нет)
+  EQ(Данные.Цена; От 40.000 до 60.000 руб)
+Do
+  EQ(Выбор вычислительной техники; Компьютер DNS Prestige Core i7-3650 16GB HD7770) 100
+EndR</value>
+  </data>
+</root>
