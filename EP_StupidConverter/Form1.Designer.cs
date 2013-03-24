@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.rtbESWin_Text = new System.Windows.Forms.RichTextBox();
             this.rtbPrologText = new System.Windows.Forms.RichTextBox();
             this.btConvert = new System.Windows.Forms.Button();
@@ -40,7 +39,7 @@
             this.rtbESWin_Text.Name = "rtbESWin_Text";
             this.rtbESWin_Text.Size = new System.Drawing.Size(492, 592);
             this.rtbESWin_Text.TabIndex = 0;
-            this.rtbESWin_Text.Text = resources.GetString("rtbESWin_Text.Text");
+            this.rtbESWin_Text.Text = "ESWin file content here";
             // 
             // rtbPrologText
             // 
